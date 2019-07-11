@@ -12,7 +12,8 @@ class UserRegister : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_user_register)
         btnGo.setOnClickListener{
-            it.snackbar("Hello There")
+
+            it.snackbar("Hello There, ${editText.text}")
         }
     }
 }
