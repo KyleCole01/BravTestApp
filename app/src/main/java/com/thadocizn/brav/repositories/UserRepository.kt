@@ -1,21 +1,20 @@
 package com.thadocizn.brav.repositories
 
-import android.app.Application
 import android.arch.lifecycle.MutableLiveData
-import com.thadocizn.brav.model.User
+import com.thadocizn.brav.model.Users
 
 /**
  * Created by charles on 10,July,2019
  */
-class UserRepository(private val user: User, val application: Application) {
+class UserRepository(private val user: Users) {
 
-    lateinit var users: MutableList<User>
-    private val mutableLiveData = MutableLiveData<List<User>>()
+    lateinit var userList: MutableList<Users>
+    private val mutableLiveData = MutableLiveData<List<Users>>()
 
-    val userList: MutableLiveData<List<User>>
+    val usersList: MutableLiveData<List<Users>>
         get() {
-            users.add(user)
-            mutableLiveData.postValue(users)
+            userList.add(user)
+            mutableLiveData.postValue(userList)
             return mutableLiveData
         }
 }
