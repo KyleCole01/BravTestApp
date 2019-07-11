@@ -12,7 +12,7 @@ import com.thadocizn.brav.repositories.UserRepository
 
 class UserViewModel(user: User, application: Application) : AndroidViewModel(application) {
 
-    private val repository: UserRepository = UserRepository(user,application)
+    private val repository: UserRepository = UserRepository(user, application)
 
     val allUsers: LiveData<List<User>>
         get() = repository.userList
