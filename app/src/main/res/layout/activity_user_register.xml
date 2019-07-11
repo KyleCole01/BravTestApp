@@ -69,6 +69,7 @@
             android:id="@+id/editUserRePassword"
             android:hint="Re-type Password" android:layout_gravity="center_horizontal"/>
     <Button
+
             android:text="Start "
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/btnGo" android:layout_gravity="right"/>
