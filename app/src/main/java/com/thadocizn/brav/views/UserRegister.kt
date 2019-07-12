@@ -12,8 +12,9 @@ class UserRegister : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_user_register)
         btnGo.setOnClickListener{
+            val user = etUserName.text ?: "Welcome Aboard"
 
-            it.snackbar("Hello There, ${editText.text}")
+            it.snackbar("Hello There, $user")
         }
     }
 }
