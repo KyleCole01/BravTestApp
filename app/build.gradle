@@ -36,7 +36,7 @@ dependencies {
 
     implementation "org.jetbrains.anko:anko-commons:$anko_version"
     implementation "org.jetbrains.anko:anko-design:$anko_version"
-    implementation "com.auth0.android:auth0:1.+"
-    implementation "com.squareup.okhttp3:okhttp:4.0.1"
+//    implementation "com.auth0.android:auth0:1.17.0"
+//    implementation "com.squareup.okhttp3:okhttp:4.0.1"
 
 }
