@@ -11,7 +11,6 @@
             android:layout_height="wrap_content"
             android:id="@+id/userName"
             android:textSize="24sp"
-
             android:layout_gravity="center_horizontal" android:gravity="start"/>
     <EditText
             android:layout_width="wrap_content"
@@ -32,7 +31,7 @@
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
+            android:inputType="textEmailAddress"
             android:ems="10"
             android:id="@+id/editUserEmail"
             android:hint="User Email" android:layout_gravity="center_horizontal"/>
