@@ -1,5 +1,6 @@
 package com.thadocizn.brav.views
 
+
 import android.app.Dialog
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
